@@ -1,0 +1,70 @@
+body
+{
+	background-image: url("cafe3.jpg");
+
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+form
+{
+    text-align: justify;
+}
+h1{
+text-align: center;
+text-transform: capitalize; 
+} 
+h2 {
+	text-align: center;
+}
+.navbar-brand{
+	text-transform: capitalize; 
+
+}
+
+#photos {
+width:1000px; margin:3px auto 3px auto; text-align:center;
+}
+#photos > *{
+    float:left;
+} 
+#pic1{
+	margin-right: 10px; 
+	margin-left: 10px;
+} 
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+
+
+/* Clear floats after the columns */ 
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+.heading
+{
+    padding-left: 20px; 
+    text-align: left;
+} 
+.items
+{
+
+   padding-left: 20px; 
+    text-align: left; 
+}
